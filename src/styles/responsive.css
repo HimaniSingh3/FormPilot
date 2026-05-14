@@ -1,0 +1,120 @@
+@media (max-width: 1060px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .workspace-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-stack.single {
+    grid-column: auto;
+  }
+
+  .sidebar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .template-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .shell {
+    width: min(100% - 24px, var(--shell));
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 78px;
+    left: 12px;
+    right: 12px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    background: var(--bg-soft);
+    box-shadow: var(--shadow);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a,
+  .theme-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 52px 0;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.8rem, 16vw, 4.8rem);
+  }
+
+  .hero-actions,
+  .workspace-actions,
+  .form-actions,
+  .export-actions,
+  .workspace-header,
+  .row-heading,
+  .footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button,
+  .theme-button {
+    width: 100%;
+  }
+
+  .panel-tabs {
+    width: 100%;
+    border-radius: var(--radius-lg);
+  }
+
+  .panel-tab {
+    flex: 1 0 auto;
+  }
+
+  .sidebar,
+  .template-grid,
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-grid.two {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 20px;
+    border-radius: var(--radius-lg);
+  }
+
+  .preview-form {
+    border-radius: var(--radius-lg);
+  }
+
+  .code-box {
+    max-height: 460px;
+    font-size: 0.8rem;
+  }
+
+  .toast {
+    left: 14px;
+    right: 14px;
+    text-align: center;
+  }
+}
