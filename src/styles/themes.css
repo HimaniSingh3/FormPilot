@@ -1,0 +1,20 @@
+[data-theme="light"] .code-window pre,
+[data-theme="light"] .code-box {
+  color: #4c1d95;
+  background: #f8fafc;
+}
+
+[data-theme="light"] .submit-button,
+[data-theme="light"] .button-primary {
+  box-shadow: 0 18px 46px rgba(97, 87, 255, 0.2);
+}
+
+[data-theme="light"] .input,
+[data-theme="light"] .editor-form input,
+[data-theme="light"] .editor-form textarea,
+[data-theme="light"] .editor-form select,
+[data-theme="light"] .preview-field input,
+[data-theme="light"] .preview-field textarea,
+[data-theme="light"] .preview-field select {
+  background: #ffffff;
+}
